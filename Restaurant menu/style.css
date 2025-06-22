@@ -1,0 +1,52 @@
+/*style.css*/
+body {
+    background-color: #22223b; /* Example: dark blue background, change as desired */
+}
+
+.main-heading {
+    text-align: center;
+}
+
+/* Remove flex container styles as it's no longer needed */
+/* .menu-headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px;
+} */
+
+ol {
+    padding: 100px 200px; /* Maintain spacing from the walls */
+}
+
+ol li {
+    list-style-type: none;
+    margin-bottom: 30px; /* Space between sections */
+}
+
+ol h2 {
+    margin: 0;
+    font-family: 'Bringbold Nineties Demo';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #d8d4af; /* Example: teal color, change as desired */
+}
+
+ol h2 a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Keeps the link color same as heading */
+}
+
+/* Optional: Style for each heading (not strictly needed, but for clarity) */
+.appetizers { text-align: left; }
+.main-dishes { text-align: left; }
+.desserts { text-align: left; }
+
+.website-name {
+    text-align: center;
+    font-family: 'Bringbold Nineties Demo';
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 100px; /* Add some space above the website name */
+    color: #e6e4d1;
+}
